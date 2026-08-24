@@ -14,7 +14,9 @@ Create and customize visualizations in Tableau.
 
 1. Log in to Tableau Public and create a Viz.
 2. This may bring us to the Connect to Data window. Go to the Files tab and open the CO2 dataset. 
-3. Once you have uploaded the data, you will notice the following display. Locate the sheets contained in the data file on the left side of the screen.
+3. Once we have uploaded the data, we will notice the following display. Locate the sheets contained in the data file on the left side of the screen.
+
+![img](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/JvtiAAUYRzW7YgAFGMc15g_f4dc1e733f5e413296bbcbe0d4ee3780_Tableau1.png?expiry=1787650725085&hmac=C0mFOVFX9Kug33wEqBXNxGd7tfj-AODZWmWJzTeHQBg)
 
 A left-side menu containing a list of sheetsSheets:
 - About
