@@ -27,32 +27,28 @@ A left-side menu containing a list of sheetsSheets:
 - CO2 (kt) Per Capita (Pivoted)
 - CO2 (kt) CO2 Per Capita RAW DATA
 - Metadata - Countries
-6. Double-click on the sheet CO2 Data Cleaned to load that sheet's data into the main part of the screen. You can also drag and drop the sheet into the area where it says Drag tables here.
-
+4. Double-click on the sheet CO2 Data Cleaned to load that sheet's data into the main part of the screen. We can also drag and drop the sheet into the area where it says Drag tables here.
 Once this is done, the main display will appear like this:
+![img](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/QlMviRQiRbeTL4kUIoW3AA_f147895d16ef4b86bf40a5db62e6d75e_Tableau2.png?expiry=1787650725085&hmac=IAAG0IDbeF0zQ_y54bY3e5fAC8uiPckf4NJjso0_i80)
 
 A Tableau Public table. The columns are country code, country name, region, year, CO2 (kt), and CO2 per capita
-The data in the table are listed in the bottom portion of the display above. By default, Tableau will only show the first 1000 rows in the table, but you can increase the number of rows in the settings above the data view.
+The data in the table are listed in the bottom portion of the display above. By default, Tableau will only show the first 1000 rows in the table, but we can increase the number of rows in the settings above the data view.
 
 Each row corresponds to a single data point, and each column represents a different feature.
 
 Tableau interprets the type of data in each column. The following icons, which are above in the column name, refer to how Tableau interprets the data type in the column:
 
-#: Numeric data
+- #: Numeric data
+- Abc: String data
+- Globe: Geographic data
+- Calendar: Date data
+- Calendar with a clock: Date and time data
 
-Abc: String data
+In the image above, we can see that Tableau has interpreted the first two columns as geographic data, the third column as string data, and the last three columns as numeric data.
 
-Globe: Geographic data
+## Create a visualization of CO2 emissions
 
-Calendar: Date data
-
-Calendar with a clock: Date and time data
-
-In the image above, you can see that Tableau has interpreted the first two columns as geographic data, the third column as string data, and the last three columns as numeric data.
-
-Create a visualization of CO2 emissions
-
-Now that you have all of your data loaded into Tableau, you can use it to make visualizations. Create a visualization in which the CO2 emissions are displayed per country.
+Now that we have all of the data loaded into Tableau, we can use it to make visualizations. Create a visualization in which the <b>CO2 emissions</b> are displayed <b>per country</b>.
 
 To do this, click on the Sheet1 tab in the lower-left of the display.
 
