@@ -25,36 +25,22 @@ Tableau allows us to link data from different sources, as well as import data fr
 4. Repeat for the other datasets, gdptotal and totalpopulation.
 
 Now, we should have all four datasets loaded into Tableau. The datasets will be on the left-hand side of our screen under Connections. 
-
-We’ll notice that Tableau has already added one of the data sources into the area Multiple Connections. In the screenshot below, Energy is already loaded.
-
-If one of the datasets has already been loaded in, we can remove it by dragging the box to the left-hand side (the grey area) of the screen. Click on the box labeled Energy in the center-top of the screen and drag it off to the left to delete it. 
-
-Once we remove the data from Multiple Connections, it should appear similar to the image below.
-
-
+![img](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/ElL7gKUVQbqS-4ClFfG6LQ_30e09cb76f15476187ebc8aa77fa52e1_DAC6M2L4SR1-SS2.png?expiry=1787652949288&hmac=lMbqHqfwHZAXj1mjl6FjGlnvoXvPrpdZ1R-mersXmdU)
 
 ## Make connections with JOINs
 
-Now, you’ll set up the connections between the different datasets by creating JOINs between them. You learned about JOINs in the previous course. 
+Now, we’ll set up the connections between the different datasets by creating JOINs between them. 
 
-As a refresher: INNER JOINs and OUTER JOINs are types of relationships that can be used to combine data based on common columns of information.
+INNER JOINs and OUTER JOINs are types of relationships that can be used to combine data based on common columns of information.
 
-In Tableau, you’ll notice that the former JOINs window has now become a multi-purpose Relationships window. By double-clicking your data tables, you can edit the JOINs instead of the relationships. 
-
-Follow these instructions to create JOINs in Tableau:
+In Tableau, we’ll notice that the former JOINs window has now become a multi-purpose Relationships window. By double-clicking the data tables, we can edit the JOINs instead of the relationships. 
 
 1. Click on CO2 under Connections. 
+2. Under Sheets, we will notice all the different sheets in the CO2 dataset. Find CO2 Data Cleaned and double-click on it to load it.
+3. Hover the cursor over the right side of the CO2 Data Cleaned box and click on the arrow.
+4. Select Open to open the CO2 Data Cleaned dataset. This allows us to change the physical table, which will allow us to create JOINs. Otherwise, we will only be able to edit Relationships. Usually, we could use either option to accomplish the same goal. But for the purposes of this activity, we specifically want to use JOINs.
 
-2. Under Sheets, you will notice all the different sheets in the CO2 dataset. Find CO2 Data Cleaned and double-click on it to load it.
-
-3. Hover your cursor over the right side of the CO2 Data Cleaned box and click on the arrow.
-
-4. Select Open to open the CO2 Data Cleaned dataset. Make sure you complete this step. This allows you to change the physical table, which will allow you to create JOINs. Otherwise, you will only be able to edit Relationships. Usually, you could use either option to accomplish the same goal. But for the purposes of this activity, we specifically want to use JOINs.
-
-Your screen should appear similar to the screenshot below.
-
-
+![img](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/UqyTapQ1QhGsk2qUNfIRtw_a7c3d0cc5b9b459d869288ecf0edc1f1_Screenshot-2021-06-06-4.58.30-PM.png?expiry=1787652949287&hmac=mMgd-cvMq-Uvw7wyMxjFADbcHiF0wAEDS90P4XS-ZoA)
 
 5. Click on the energy dataset under Connections.
 
