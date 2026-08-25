@@ -123,8 +123,6 @@ The Tableau workbook contains <b>9 story points</b>, organized as a progressive 
 |9|	Where Are We Losing Machine Profits in North Carolina in 2022?|	Identify city/product-level sources of machine profit loss|
 
 The sequence follows a <b>drill-down data story</b>: establish context first, identify an area of interest, and then progressively investigate the underlying dimensions. This is consistent with Tableau’s recommended use of story points to connect different views and support analytical narratives. 
- 
-⸻
 
 
 ## Tab 1 — Sales and Profit by Year
@@ -183,7 +181,6 @@ This creates a logical transition from the general product portfolio in Tab 1 to
 
 <img width="2030" height="1926" alt="Regional_Sales_and_Profits_Tab2" src="https://github.com/user-attachments/assets/9db21309-b7ce-40de-a424-7d97400177f6" />
 <br>
-⸻
 
 
 ## Tab 3 — Underperforming Items in the South
@@ -215,14 +212,12 @@ Instead of treating the South region as a single aggregate, the visualization al
 
 <img width="2030" height="1926" alt="Regional_Sales_and_Profits_Tab3" src="https://github.com/user-attachments/assets/7a757538-28a0-466f-83c0-50980a91d0ef" />
 <br>
-⸻
 
 
 ## Tabs 4–8 — North Carolina Drill-Down
 The next five story points focus specifically on <b>North Carolina</b>.<br>
 These tabs represent a temporal drill-down from the broader South-region analysis into one state.
  
-⸻
  
 ## Tab 4 — Profit in North Carolina, 2019–2022
 Tab 4 provides the overall North Carolina view across the complete 2019–2022 period.
@@ -250,7 +245,7 @@ The key question becomes:<br>
 
 <img width="2030" height="1926" alt="Regional_Sales_and_Profits_Tab4" src="https://github.com/user-attachments/assets/ae0c0f9c-35f8-44fe-bd8e-dec350d87fca" />
 <br>
-⸻
+
 
 
 ## Tab 5 — Profit in North Carolina, 2019
@@ -261,7 +256,7 @@ This allows individual product-level patterns to be examined without the additio
 
 <img width="2030" height="1926" alt="Regional_Sales_and_Profits_Tab5" src="https://github.com/user-attachments/assets/553dcc21-18e0-4c47-b4c1-cb935ec23909" />
 <br>
-⸻
+
 
 
 ## Tab 6 — Profit in North Carolina, 2020
@@ -271,7 +266,7 @@ The year-specific view allows the viewer to compare the product mix and profitab
 
 <img width="2030" height="1926" alt="Regional_Sales_and_Profits_Tab6" src="https://github.com/user-attachments/assets/05c13904-bedf-40e8-87ac-c2fba501951a" />
 
-⸻
+
  
 ## Tab 7 — Profit in North Carolina, 2021
 Tab 7 focuses on <b>2021</b>.<br>
@@ -280,7 +275,7 @@ The year-specific visualization allows the viewer to determine whether profitabi
 
 <img width="2030" height="1926" alt="Regional_Sales_and_Profits_Tab7" src="https://github.com/user-attachments/assets/faea30ad-21f7-404b-b46b-f89f11b423b0" />
 <br>
-⸻
+
  
 ## Tab 8 — Profit in North Carolina, 2022
 Tab 8 focuses on <b>2022</b>.<br>
@@ -290,7 +285,7 @@ Consequently, Tab 8 acts as the bridge between the broader state-level analysis 
 
 <img width="2030" height="1926" alt="Regional_Sales_and_Profits_Tab8" src="https://github.com/user-attachments/assets/66195604-98bf-4df6-a28f-80f5239d0158" />
 <br>
-⸻
+
 
 
 ## Tab 9 — Where Are We Losing Machine Profits in North Carolina in 2022?
