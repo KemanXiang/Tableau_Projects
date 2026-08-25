@@ -120,6 +120,7 @@ The Tableau workbook contains <b>9 story points</b>, organized as a progressive 
 |7|	Profit in North Carolina, 2021|	Examine the 2021 state-level performance|
 |8|	Profit in North Carolina, 2022|	Examine the 2022 state-level performance|
 |9|	Where Are We Losing Machine Profits in North Carolina in 2022?|	Identify city/product-level sources of machine profit loss|
+
 The sequence follows a <b>drill-down data story</b>: establish context first, identify an area of interest, and then progressively investigate the underlying dimensions. This is consistent with Tableau’s recommended use of story points to connect different views and support analytical narratives. 
  
 ⸻
