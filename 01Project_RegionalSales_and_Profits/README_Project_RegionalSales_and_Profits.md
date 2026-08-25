@@ -1,11 +1,11 @@
 # Regional Sales and Profits — Tableau Data Visualization Project
 
 ## Project Overview
-This project is an interactive Tableau data visualization and exploratory analysis of <b>sales and profitability across U.S. regions, states, cities, product categories, and years from 2019 to 2022</b>.
-The project was designed as a <b>progressive analytical story</b> rather than a collection of independent charts. The analysis begins with a broad comparison of regional sales and product performance, then progressively narrows the scope to a specific product sub-category, identifies underperforming states within the South region, drills down into North Carolina, and finally investigates city-level sources of machine-related profit losses.
-The overall analytical path is:
-<b>Regional Overview → Product-Level Analysis → Geographic Diagnosis → State-Level Drill-Down → City-Level Profit Investigation</b>
-This structure allows the viewer to move from a high-level understanding of business performance toward increasingly specific questions about <b>where and why profitability is weak</b>.
+This project is an interactive Tableau data visualization and exploratory analysis of <b>sales and profitability across U.S. regions, states, cities, product categories, and years from 2019 to 2022</b>. <br>
+The project was designed as a <b>progressive analytical story</b> rather than a collection of independent charts. The analysis begins with a broad comparison of regional sales and product performance, then progressively narrows the scope to a specific product sub-category, identifies underperforming states within the South region, drills down into North Carolina, and finally investigates city-level sources of machine-related profit losses.<br>
+The overall analytical path is:<br>
+<b>Regional Overview → Product-Level Analysis → Geographic Diagnosis → State-Level Drill-Down → City-Level Profit Investigation</b><br>
+This structure allows the viewer to move from a high-level understanding of business performance toward increasingly specific questions about <b>where and why profitability is weak</b>.<br>
 
 ##### Tableau Public
 [View the interactive Regional Sales and Profits dashboard on Tableau Public](https://public.tableau.com/views/1RegionalSalesandProfits_16693535740520/ImproveProfitsintheSouth?:language=zh-CN&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)⁠
