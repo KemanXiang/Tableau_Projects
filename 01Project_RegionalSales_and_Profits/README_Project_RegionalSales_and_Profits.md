@@ -109,8 +109,8 @@ This design turns the visualization from a static report into an exploratory ana
  
 ## Story Structure
 The Tableau workbook contains <b>9 story points</b>, organized as a progressive drill-down.
-|Tab|	Story| Point|	Analytical| Purpose|
-|---|------|------|-----------|--------|
+|Tab|	Story Point|	Analytical Purpose|
+|---|------------|-------------------|
 |1|	Sales and Profit by Year|	Establish the overall regional and product-level performance|
 |2|	Machine Sales by Year|	Isolate the Machines sub-category|
 |3|	Underperforming Items in the South|	Identify geographic and product-level underperformance|
