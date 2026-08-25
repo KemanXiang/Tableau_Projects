@@ -159,7 +159,7 @@ This prevents the analysis from equating sales performance with business success
 
 <img width="2030" height="1926" alt="Regional_Sales_and_Profits_Tab1" src="https://github.com/user-attachments/assets/373014a0-875d-454e-a46e-8fbaad5a9521" />
 <br>
-⸻
+
  
 ## Tab 2 — Machine Sales by Year
 
