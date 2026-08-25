@@ -29,7 +29,7 @@ the visualization is designed to support broader questions such as:
 * Is North Carolina’s profitability consistent across years?
 * Which product categories contribute to North Carolina’s performance?
 * Can a state-level profitability problem be traced further down to individual cities and products?
-* Where are machine-related profits being lost, and how large are the losses?<br>
+* Where are machine-related profits being lost, and how large are the losses?<br><br>
 The dashboard therefore combines <b>descriptive visualization, comparative analysis, geographic exploration, temporal analysis, and hierarchical drill-down</b>.<br>
  
 ⸻
