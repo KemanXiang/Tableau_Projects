@@ -49,6 +49,7 @@ The visualization uses a sales and profitability dataset containing transactiona
 |Sales|	Sales amount|
 |Profit|	Profit amount|
 |Profit Ratio|	Profitability ratio used in the geographic views|
+
 The dataset covers four years: <b>2019, 2020, 2021, and 2022</b>
 and four major regions: <b>Central, East, South, and West</b>
 The product dimension contains multiple sub-categories, including:
