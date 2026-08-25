@@ -310,7 +310,6 @@ The result demonstrates how visualization can be used not only to identify an un
 
 <img width="2030" height="1926" alt="Regional_Sales_and_Profits_Tab9" src="https://github.com/user-attachments/assets/d43f3375-1dfc-46b1-bc2d-c0903cf02521" />
 <br>
-⸻
  
 
 ## Key Analytical Insights
@@ -331,8 +330,6 @@ The North Carolina story points show a substantial negative profitability figure
 5. <b>The final drill-down identifies Burlington as a major source of machine profit loss</b>
 The final visualization highlights a machine-related profit loss of nearly <b>$4,000 in Burlington during 2022</b>.<br>
 This provides a concrete example of how a broad profitability problem can be progressively decomposed into a specific geographic and product-level issue.
- 
-⸻
 
 
 ## Analytical Workflow
@@ -368,8 +365,6 @@ Overall Sales & Profit Performance<br>
     Machine Profit Loss in Burlington<br><br>
 
 This progression is intentional. Each stage reduces the analytical scope while increasing the level of detail.
- 
-⸻
 
 
 ## Visualization Techniques Used
@@ -394,7 +389,7 @@ Several views use hierarchical structures such as:<br>
 Year<br>
  └── Category<br>
       └── Sub-Category<br>
-and:<br>
+and:<br><br>
 Region<br>
  └── State<br>
       └── City<br>
@@ -409,8 +404,6 @@ This allows the dashboard to function as an exploratory tool rather than a fixed
 ### Tooltips
 Hover interactions provide additional information without overcrowding the visual canvas.<br>
 This follows the principle that supporting information can be revealed on demand rather than displayed permanently. 
- 
-⸻
 
 
 ## Design Rationale
@@ -430,8 +423,6 @@ This enables simultaneous comparison of sales volume and financial performance.
 The story first establishes the overall regional and product context before focusing on North Carolina and individual cities.<br>
 This makes the later findings easier to interpret because the viewer understands the broader geographic context first.<br>
 These choices are consistent with Tableau’s recommendation to give a dashboard a clear purpose, limit unnecessary visual complexity, and use interactive elements to support exploration. 
- 
-⸻
 
 
 ## Technical Skills Demonstrated
@@ -450,8 +441,6 @@ This project demonstrates practical experience with:
 * Exploratory data analysis
 * Business-oriented analytical reasoning<br><br>
 More importantly, the project demonstrates the ability to translate a relatively multidimensional business dataset into a structured analytical interface.
- 
-⸻
 
 
 ## Research-Oriented Perspective
@@ -474,8 +463,6 @@ Possible follow-up questions include:
 * Are similar machine-profit problems present in other regions?<br><br>
 This distinction between <b>descriptive discovery</b> and <b>causal explanation</b> is important. The current project is primarily exploratory and descriptive; the identified patterns could serve as starting points for subsequent statistical or causal analysis.
  
-⸻
- 
 
 ## Limitations
 Several limitations should be considered when interpreting the dashboard.
@@ -488,8 +475,6 @@ Some visualizations aggregate data at the region, state, year, or sub-category l
 The dashboard uses a Profit Ratio measure in the geographic views. The current README intentionally does not specify its mathematical formula because the exact calculated-field definition is not documented in the project materials.
 ### Scope of variables
 The current analysis focuses primarily on Sales, Profit, geographic dimensions, product categories, and year. Additional variables could provide further explanatory power in a subsequent analysis.
- 
-⸻
 
 
 ## Potential Extensions
@@ -511,8 +496,6 @@ Machine-learning models could potentially be used to identify transactions or pr
 ### Causal Analysis
 If appropriate data were available, causal methods could be used to investigate whether specific business decisions or interventions contributed to changes in profitability.
  
-⸻
- 
 
 ## Project Takeaways
 This project demonstrates how an interactive visualization can transform a multidimensional sales dataset into a structured analytical narrative.<br>
@@ -521,7 +504,7 @@ The main contribution of the dashboard is not simply the production of charts, b
 The final result is an interactive Tableau story that connects </b>business-level metrics with geographic and product-level detail</b>, while allowing users to investigate the data independently through filters and interactions.<br>
 From a data analytics perspective, the project demonstrates the importance of moving beyond aggregate metrics. A regional profitability problem becomes more actionable when it can be traced to a particular state, year, city, and product sub-category.
  
-⸻
+
 
 
 ## Tools
@@ -531,7 +514,6 @@ From a data analytics perspective, the project demonstrates the importance of mo
 |Tableau Public|	Publishing and sharing the interactive visualization|
 |GitHub|	Project documentation and portfolio presentation|
  
-⸻
  
 ## Tableau Public
 [Open the interactive Tableau Public visualization⁠](https://public.tableau.com/views/1RegionalSalesandProfits_16693535740520/ImproveProfitsintheSouth?:language=zh-CN&:sid=&:redirect=auth&showOnboarding=true&:display_count=n&:origin=viz_share_link)
