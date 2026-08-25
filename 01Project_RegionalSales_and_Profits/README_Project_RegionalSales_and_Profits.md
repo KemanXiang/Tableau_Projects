@@ -69,7 +69,7 @@ The product dimension contains multiple sub-categories, including:
 * Phones
 * Storage
 * Supplies
-* Tables
+* Tables<br><br>
 The project focuses particularly on the <b>South region, North Carolina</b>, and the <b>Machines</b> sub-category during the later stages of the analytical story.
  
 ⸻
@@ -79,7 +79,7 @@ The project focuses particularly on the <b>South region, North Carolina</b>, and
 A major design principle throughout the project is the simultaneous visualization of <b>Sales and Profit</b>.<br>
 For the primary bar charts:
 * <b>Bar height → Sales</b>
-* <b>Bar color → Profit</b>
+* <b>Bar color → Profit</b><br><br>
 This allows two related business dimensions to be examined simultaneously.<br>
 A product can therefore be evaluated not only by how much it sells, but also by whether those sales are associated with positive or negative profitability.<br>
 The profit color scale uses a diverging continuous encoding:<br>
@@ -93,7 +93,7 @@ Depending on the story point, users can explore:
 * Year
 * Product sub-category
 * State
-* City
+* City<br><br>
 Hovering over marks also exposes additional information such as:
 * Category
 * Region
@@ -102,7 +102,7 @@ Hovering over marks also exposes additional information such as:
 * Order Date
 * Sales
 * Profit
-* Profit Ratio where applicable
+* Profit Ratio where applicable<br><br>
 This design turns the visualization from a static report into an exploratory analytical interface.
 
 ⸻
@@ -137,7 +137,7 @@ The primary visualization is a grouped bar chart.<br>
 * <b>X-axis:</b> Order Date by Year → Sub-Category
 * <b>Y-axis:</b> Sales
 * <b>Color:</b> Profit
-* <b>Filters:</b> Region, Sub-Category, Order Date
+* <b>Filters:</b> Region, Sub-Category, Order Date<br><br>
 The x-axis is hierarchically structured. Each year contains multiple product sub-categories, while the sub-categories are organized within their broader product categories.<br>
 For example, products such as Bookcases, Chairs, Furnishings, and Tables appear together within their corresponding category structure.
 ### Analytical purpose
@@ -170,7 +170,7 @@ This is the first major analytical drill-down.
 The dashboard displays a bar chart of Machine sales across:<b>2019 → 2020 → 2021 → 2022</b>
 * <b>X-axis:</b> Year / Machines
 * <b>Y-axis:</b> Sales
-* <b>Color:</b> Profit
+* <b>Color:</b> Profit<br><br>
 The Region filter remains available, allowing the user to investigate machine performance within different regions.
 ### Analytical purpose
 This visualization isolates Machines because the later stages of the story investigate machine profitability in greater geographic detail.<br>
@@ -178,7 +178,7 @@ The view helps identify:
 * Changes in machine sales over time
 * Years with particularly high or low sales
 * Whether sales performance corresponds to profitability
-* Whether regional selection changes the observed pattern
+* Whether regional selection changes the observed pattern<br><br>
 This creates a logical transition from the general product portfolio in Tab 1 toward the more focused machine-profit investigation in Tab 9.
 
 <img width="2030" height="1926" alt="Regional_Sales_and_Profits_Tab2" src="https://github.com/user-attachments/assets/9db21309-b7ce-40de-a424-7d97400177f6" />
@@ -196,7 +196,7 @@ The upper visualization is a geographic map of the states within the South regio
 The map displays:
 * State-level profit
 * Profit Ratio
-* Geographic distribution of performance
+* Geographic distribution of performance<br><br>
 The year can be changed, allowing the user to examine the geographic pattern for different years.<br>
 The current screenshot shows the <b>2020</b> view.<br>
 The geographic encoding makes it possible to identify states with weaker profitability without requiring the user to inspect each state individually.
@@ -204,7 +204,7 @@ The geographic encoding makes it possible to identify states with weaker profita
 The lower visualization displays sales across product sub-categories for the selected year.
 * <b>Bar height:</b> Sales
 * <b>Bar color:</b> Profit
-<br>
+<br><br>
 The two views therefore provide complementary information:<br>
 <b>Map → Where is the performance problem?</b><br>
 <b>Bar chart → Which products contribute to the observed performance?</b>
@@ -230,7 +230,7 @@ Tab 4 provides the overall North Carolina view across the complete 2019–2022 p
 The geographic map places North Carolina within the South region and highlights its profitability relative to surrounding states.<br>
 In the displayed view, North Carolina shows:
 * <b>Profit: approximately -$7,491</b>
-* <b>Profit Ratio: approximately -13%</b>
+* <b>Profit Ratio: approximately -13%</b><br><br>
 The map therefore establishes North Carolina as an area requiring further investigation.
 ### Lower visualization
 The lower bar chart decomposes North Carolina’s performance by:<b>Year → Product Sub-Category</b><br>
@@ -238,10 +238,10 @@ The chart covers:<br>
 * 2019
 * 2020
 * 2021
-* 2022
+* 2022<br><br>
 with:
 * <b>Bar height = Sales</b>
-* <b>Color = Profit</b>
+* <b>Color = Profit</b><br><br>
 This makes it possible to compare both the scale of sales and the profitability of different product sub-categories over time.
 ### Analytical question
 The key question becomes:<br>
@@ -384,7 +384,7 @@ Used for:
 * Sales comparison
 * Year-over-year comparison
 * Product sub-category comparison
-* Profit-loss analysis
+* Profit-loss analysis<br><br>
 Bar charts provide a straightforward way to compare quantitative values across categorical dimensions.
 ### Geographic Maps
 Used to:
@@ -409,7 +409,7 @@ This supports progressively more granular analysis.
 Users can change the analytical scope by selecting:
 * Region
 * Year
-* Sub-Category
+* Sub-Category<br><br>
 This allows the dashboard to function as an exploratory tool rather than a fixed presentation.
 ### Tooltips
 Hover interactions provide additional information without overcrowding the visual canvas.<br>
@@ -453,7 +453,7 @@ This project demonstrates practical experience with:
 * Categorical and quantitative encoding
 * Profitability analysis
 * Exploratory data analysis
-* Business-oriented analytical reasoning
+* Business-oriented analytical reasoning<br><br>
 More importantly, the project demonstrates the ability to translate a relatively multidimensional business dataset into a structured analytical interface.
  
 ⸻
@@ -476,7 +476,7 @@ Possible follow-up questions include:
 * Was the pattern persistent across multiple orders?
 * Did Burlington behave differently from comparable cities?
 * Are the losses associated with a particular customer segment?
-* Are similar machine-profit problems present in other regions?
+* Are similar machine-profit problems present in other regions?<br><br>
 This distinction between <b>descriptive discovery</b> and <b>causal explanation</b> is important. The current project is primarily exploratory and descriptive; the identified patterns could serve as starting points for subsequent statistical or causal analysis.
  
 ⸻
