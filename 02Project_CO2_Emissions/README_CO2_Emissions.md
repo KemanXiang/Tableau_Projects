@@ -245,6 +245,8 @@ The seven regions represented are:
 
 Each region is presented within its own geographic section, allowing users to examine both the global distribution and regional differences in emissions.
 
+<img width="2702" height="2928" alt="C02GlobalEmissions" src="https://github.com/user-attachments/assets/84fb9f6c-68d5-4bc5-b566-0ae6258c5e22" />
+
 ---
 
 # Visual Encoding
