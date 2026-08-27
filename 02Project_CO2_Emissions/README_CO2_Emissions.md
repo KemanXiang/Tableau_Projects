@@ -558,8 +558,6 @@ Tooltips and regional filtering allow users to inspect different levels of the d
 
 # Project Structure
 
-A suggested repository structure is:
-
 ```text
 Global-CO2-Emissions/
 │
@@ -570,20 +568,6 @@ Global-CO2-Emissions/
 │
 ├── dashboard/
 │   └── Global-CO2-Emissions.twb
-│
-└── images/
-    └── Global-CO2-Emissions.png
-```
-
-If the Tableau workbook is hosted primarily through Tableau Public and is not included in the repository:
-
-```text
-Global-CO2-Emissions/
-│
-├── README.md
-│
-├── data/
-│   └── CO2-Dataset.xlsx
 │
 └── images/
     └── Global-CO2-Emissions.png
