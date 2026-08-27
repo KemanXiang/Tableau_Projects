@@ -671,9 +671,9 @@ Use GDP, energy consumption, population, and CO₂ indicators together to invest
 ---
 
 ## Visualization
- 
 ### Tableau Public
 [Interactive visualization: View CO₂ Emissions Per Capita by Country on Tableau Public](https://public.tableau.com/shared/?:display_count=n&:origin=viz_share_link)⁠
+<img width="2736" height="1386" alt="CO2_Emission_per_Capita_by _Country" src="https://github.com/user-attachments/assets/d4401a1d-6053-4281-96c7-3e4be001287b" />
 
 ---
  
